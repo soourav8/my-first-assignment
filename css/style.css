@@ -111,6 +111,55 @@
 
 }
 
+/* routine section */
+
+.routine {
+    margin-top: 200px;
+
+
+}
+
+.r-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+
+
+.w-title {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.r-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 200px 130px;
+
+}
+
+.t-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+
+
+.t-description {
+    color: #757575;
+}
+.r-img{
+    width: 100px;
+}
+
 /* gradient banner style */
 
 .gradient {
