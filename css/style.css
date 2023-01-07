@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    text-align: right;
+    position: relative;
+}
+
+
+
+.header-content {
+    width: 600px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.header-descrp {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* article design */
+
+
+
+.article {
+    margin: 130px 200px;
+    display: flex;
+}
+
+.right-content {
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.article-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.article-descrp {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+
+.right-content li {
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+
+
+/* plan section design */
+
+.plan {
+    text-align: center;
+    margin: 0 200px 124px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-top: 50px;
+}
+
+
+.icon h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.icon p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
+}
+
+/* gradient banner style */
+
+.gradient {
+    margin: 0 200px 200px;
+
+}
+
+.banner {
+    background: url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.1));
+    padding: 60px 0;
+}
+
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.banner-content {
+    width: 600px;
+    margin-left: 100px;
+
+}
+
+.banner-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border: 0;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #F15B22;
+    ;
+}
+
+/* footer design  */
+.footer-container {
+    background-color: #151414;
+    padding: 130px 230px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 500px;
+
+}
+
+.footer-left {
+    width: 500px;
+}
+
+.f-descrp {
+    margin-top: 16px;
+    line-height: 26px;
+
+}
+
+.f-icon {
+    margin-top: 30px;
+    margin-right: 18px;
+}
+
+.footer-right {
+    color: #FFFFFF;
+    width: 500px;
+
+}
+
+.footer-right h5 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.f-btn {
+    padding: 16px 37px;
+    border-radius: 8px;
+    font-family: inter;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input[type="email"] {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #151414;
+    padding-left: 20px;
+
+    width: 325px;
+    height: 64px;
+}
