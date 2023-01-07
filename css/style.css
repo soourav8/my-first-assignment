@@ -209,12 +209,12 @@
     padding: 130px 230px;
     color: #FFFFFF;
     display: flex;
-    gap: 500px;
+    gap: 300px;
 
 }
 
 .footer-left {
-    width: 500px;
+    width: 650px;
 }
 
 .f-descrp {
